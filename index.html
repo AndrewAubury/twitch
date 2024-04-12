@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Twitch project</title>
+</head>
+<body>
+    <main>
+        <section id="cheshire">
+            <!-- Load the Twitch embed JavaScript file -->
+            <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+            <script type="text/javascript">
+            new Twitch.Embed("cheshire", {
+                width: 854,
+                height: 480,
+                channel: "cheshires_wonderland",
+            });
+            </script>
+        </section>
+
+        <section id="jemima">
+            <!-- Load the Twitch embed JavaScript file -->
+            <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+            <script type="text/javascript">
+            new Twitch.Embed("jemima", {
+                width: 854,
+                height: 480,
+                channel: "jemima91",
+            });
+            </script>
+        </section>
+
+        <section id="kimmy">
+            <!-- Load the Twitch embed JavaScript file -->
+            <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+            <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+            <script type="text/javascript">
+            new Twitch.Embed("kimmy", {
+                width: 854,
+                height: 480,
+                channel: "kimmymode",
+            });
+            </script>
+        </section>
+
+        <section id="familiars">
+            <h1>The Familiars</h1>
+            <h2>Stream Team</h2>
+            <a href="https://www.twitch.tv/cheshires_wonderland?&ab_channel=Cheshires_Wonderland" target="_blank">Cheshires_Wonderland</a>
+            <a href="https://www.twitch.tv/jemima91?&ab_channel=Jemima91" target="_blank">Jemima91</a>
+            <a href="https://www.twitch.tv/kimmymode?&ab_channel=Kimmymode" target="_blank">Kimmymode</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&#169;Cheshire</p>
+    </footer>
+    
+</body>
+</html>
